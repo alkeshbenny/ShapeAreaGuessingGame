@@ -21,4 +21,3 @@ A fun interactive console-based game written in C# where players try to guess th
 - ❌ Wrong guess or time out: -5 points  
 - ⚠️ Invalid input (non-numeric): No score change
 
-## 📷 Sample Output
