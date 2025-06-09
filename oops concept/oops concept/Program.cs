@@ -118,6 +118,13 @@ class Program
         else if (score >= 30) Console.WriteLine("👏 Great job!");
         else if (score >= 0) Console.WriteLine("👍 Keep practicing!");
         else Console.WriteLine("😅 Don't worry, try again!");
+
+        Console.WriteLine("\nPlay again? (y/n): ");
+        if (Console.ReadKey(true).Key == ConsoleKey.Y)
+        {
+            Console.Clear();
+            await Main(); // restart the game
+        }
     }
 
     static Shape GetRandomShape(Random rand)
